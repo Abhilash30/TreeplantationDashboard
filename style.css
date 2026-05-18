@@ -1,0 +1,46 @@
+body {
+    margin: 0;
+    height: 100vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background-color: #111;
+    color: white;
+
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+#counter {
+    font-size: 80px;
+    font-weight: bold;
+    letter-spacing: 8px;
+}
+
+button {
+    width: 80px;
+    height: 80px;
+
+    border: none;
+    border-radius: 50%;
+
+    font-size: 40px;
+    cursor: pointer;
+
+    background-color: #4caf50;
+    color: white;
+
+    transition: 0.2s;
+}
+
+button:hover {
+    transform: scale(1.1);
+}
